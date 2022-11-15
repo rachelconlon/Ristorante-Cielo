@@ -14,7 +14,9 @@ body {
 
 /* headings */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Lora, serif;
     font-size: 48px;
     letter-spacing: 2px;
@@ -27,12 +29,14 @@ p {
     font-family: montaga, serif;
     font-size: x-large;
 }
+
 /* header styling */
 
 .header {
     padding: 100px;
-    background-color:  rgb(119, 4, 4);
+    background-color: rgb(119, 4, 4);
 }
+
 #logo {
     font-family: Italianno, cursive;
     font-weight: 400;
@@ -71,7 +75,7 @@ p {
 }
 
 #menu a:hover {
-   border-bottom: 1px solid azure;
+    border-bottom: 1px solid azure;
 }
 
 .active {
@@ -116,6 +120,8 @@ p {
     background-color: #deac6b;
     border-color: black;
     border-radius: 10px;
+    height: 500px;
+    width: 500px;
 }
 
 .opening-times {
@@ -128,6 +134,8 @@ p {
     display: block;
     padding: 25px;
     text-align: left;
+    height: 500px;
+    width: 500px;
     background-color: #deac6b;
     border-color: black;
     border-radius: 10px;
@@ -136,7 +144,7 @@ p {
 button {
     background-color: rgb(119, 4, 4);
     color: azure;
-    height: 25px;
+    height: 50px;
     width: 100px;
     text-decoration: none;
 }
@@ -146,6 +154,7 @@ button {
 
 footer {
     background-color: rgb(119, 4, 4);
+    margin-bottom: 0;
 }
 
 .social-networks {
@@ -162,4 +171,3 @@ footer {
     padding: 5%;
     color: azure;
 }
-
