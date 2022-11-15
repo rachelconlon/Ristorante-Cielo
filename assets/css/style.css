@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lora:ital@1&family=Montaga&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: Arial;
+    font-family: Lora, serif;
+    font-weight: 400;
+}
+/* header styling */
+
+h1 {
+    font-family: Italianno, cursive;
+    font-weight: 400;
+    font-size: 100px;
+}
+
+
+
+/* hero image styling */
+
+#hero-image {
+    height: 600px;
+    width: 50%;
 }
