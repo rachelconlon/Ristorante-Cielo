@@ -18,12 +18,14 @@ h1, h2, h3 {
     font-family: Lora, serif;
     font-size: 48px;
     letter-spacing: 2px;
+    color: rgb(119, 4, 4);
 }
 
 /* paragraph styling */
 
 p {
     font-family: montaga, serif;
+    font-size: x-large;
 }
 /* header styling */
 
@@ -96,5 +98,68 @@ p {
     text-align: center;
     color: rgb(119, 4, 4);
     font-size: 25px;
+}
+
+/* about us section styling */
+
+#about-us {
+    text-align: center;
+}
+
+/* opening times and find us here styling */
+
+#opening-times {
+    float: left;
+    display: block;
+    padding: 25px;
+    text-align: right;
+    background-color: #deac6b;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.opening-times {
+    list-style: none;
+    text-align: center;
+}
+
+#find-us {
+    float: right;
+    display: block;
+    padding: 25px;
+    text-align: left;
+    background-color: #deac6b;
+    border-color: black;
+    border-radius: 10px;
+}
+
+button {
+    background-color: rgb(119, 4, 4);
+    color: azure;
+    height: 25px;
+    width: 100px;
+    text-decoration: none;
+}
+
+
+/* footer */
+
+footer {
+    background-color: rgb(119, 4, 4);
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: azure;
 }
 
