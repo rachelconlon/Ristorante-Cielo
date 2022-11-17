@@ -126,6 +126,8 @@ p {
     text-align: center;
     background-color: #deac6b;
     border-radius: 10px;
+    border: 10px double rgb(119, 4, 4);
+    box-shadow: 5px 5px rgb(119, 4, 4); 
     height: 500px;
     width: 500px;
     margin: 50px 200px 200px 200px;
@@ -155,6 +157,8 @@ button {
     width: 500px;
     background-color: #deac6b;
     border-radius: 10px;
+    border: 10px double rgb(119, 4, 4);
+    box-shadow: 5px 5px rgb(119, 4, 4); 
     margin: 50px 200px 200px 200px;
 }
 
@@ -181,8 +185,9 @@ button {
     padding: 25px;
     text-align: center;
     background-color: #deac6b;
-    border-color: black;
     border-radius: 10px;
+    border: 10px double rgb(119, 4, 4);
+    box-shadow: 5px 5px rgb(119, 4, 4); 
     height: 100px;
     width: 750px;
     margin: 0 auto;
@@ -194,8 +199,9 @@ button {
     padding: 25px;
     text-align: center;
     background-color: #deac6b;
-    border-color: black;
     border-radius: 10px;
+    border: 10px double rgb(119, 4, 4);
+    box-shadow: 5px 5px rgb(119, 4, 4); 
     height: 650px;
     width: 750px;
     margin: 0 auto;
