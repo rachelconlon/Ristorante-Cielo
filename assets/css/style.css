@@ -104,31 +104,31 @@ p {
     text-align: center;
     color: rgb(119, 4, 4);
     font-size: 25px;
+    margin: 50px 0;
 }
 
 /* about us section styling */
 
 #about-us {
     text-align: center;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin: 0 250px;
 }
 
 /* opening times and find us here styling */
 #times-location-section {
-    display: inline-block;
+    text-align: center;
 }
 
 #opening-times {
     float: left;
-    display: block;
+    display: inline-block;
     padding: 25px;
     text-align: center;
     background-color: #deac6b;
     border-radius: 10px;
     height: 500px;
     width: 500px;
-    margin-left: 200px;
+    margin: 50px 200px 200px 200px;
 }
 
 .opening-times {
@@ -148,14 +148,14 @@ button {
 
 #find-us {
     float: right;
-    display: block;
+    display: inline-block;
     padding: 25px;
     text-align: center;
     height: 500px;
     width: 500px;
     background-color: #deac6b;
     border-radius: 10px;
-    margin-right: 200px;
+    margin: 50px 200px 200px 200px;
 }
 
 .mapouter {
@@ -185,7 +185,7 @@ button {
     border-radius: 10px;
     height: 100px;
     width: 750px;
-    margin: 75px 125px;
+    margin: 0 auto;
 }
 
 #booking {
@@ -198,7 +198,7 @@ button {
     border-radius: 10px;
     height: 650px;
     width: 750px;
-    margin: 75px 125px;
+    margin: 0 auto;
 }
 
 /* Style inputs, submit and reset */
