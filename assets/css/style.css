@@ -170,70 +170,6 @@ button {
     margin-left: 50px;
 }
 
-/* menu page styling */
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    background-color: rgb(119, 4, 4);
-    padding: 10px;
-    margin: 100px;
-}
-
-.grid-item {
-    background-color: #deac6b;
-    border: 1px solid rgb(119, 4, 4);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-}
-
-/* contact us page styling */
-
-#call-us {
-    display: block;
-    padding: 25px;
-    text-align: center;
-    background-color: #deac6b;
-    border-color: black;
-    border-radius: 10px;
-    height: 100px;
-    width: 500px;
-    margin: 50px 100px;
-
-}
-#booking {
-    display: block;
-    padding: 25px;
-    text-align: center;
-    background-color: #deac6b;
-    border-color: black;
-    border-radius: 10px;
-    height: 500px;
-    width: 500px;
-    margin: 50px 100px;
-}
-
-#submit {
-    background-color: rgb(119, 4, 4);
-    color: azure;
-    height: 75px;
-    width: 200px;
-    text-decoration: none;
-    font-size: larger;
-    border-radius: 10px;
-}
-
-#reset {
-    background-color: azure;
-    color: rgb(119, 4, 4);
-    height: 75px;
-    width: 200px;
-    text-decoration: none;
-    font-size: larger;
-    border-radius: 10px;
-    border-color: rgb(119, 4, 4);
-}
 
 /* footer */
 
@@ -254,7 +190,7 @@ button {
 
 .social-networks>li {
     display: inline-block;
-
+    margin: 25px 50px;
 }
 
 .social-networks i {
@@ -262,4 +198,9 @@ button {
     margin: 1%;
     padding: 5%;
     color: azure;
+}
+
+
+.social-networks i:hover {
+    font-size: 300%;
 }
