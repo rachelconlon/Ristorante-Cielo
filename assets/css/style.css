@@ -13,15 +13,15 @@ body {
 }
 
 #index-body {
-    background-image: url('../images/index-page-background.jpg');
+    background-image: url('../images/page-background.jpg');
 }
 
 #menu-body {
-    background: url('../images/menu-background.jpeg') no-repeat center center;
+    background: url('../images/page-background.jpg');
 }
 
 #contact-us-body {
-    background: url('../images/contact-us-background.jpeg');
+    background: url('../images/page-background.jpg');
 }
 
 /* headings */
@@ -210,7 +210,7 @@ button {
     font-size: 35px;
 }
 
-.menu-item-left {
+#starter {
     background-color: #deac6b;
     padding: 20px;
     font-size: 30px;
@@ -225,7 +225,7 @@ button {
 }
 
 
-.menu-item-right {
+#main-course {
     background-color: #deac6b;
     padding: 20px;
     font-size: 30px;
@@ -236,6 +236,20 @@ button {
     width: 500px;
     height: 500px;
     float: right;
+    position: relative;
+}
+
+#dessert {
+    background-color: #deac6b;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 50px 150px 50px;
+    border-radius: 10px;
+    border: 10px double rgb(119, 4, 4);
+    width: 500px;
+    height: 500px;
+    float: left;
     position: relative;
 }
 
@@ -305,7 +319,7 @@ button {
     border-radius: 10px;
     border: 10px double rgb(119, 4, 4);
     box-shadow: 5px 5px rgb(119, 4, 4);
-    height: 650px;
+    height: 750px;
     width: 750px;
     margin: 0 auto;
 }
@@ -399,10 +413,24 @@ input[type=number] {
 
 @media only screen and (max-width: 600px) {
 
+    #index-body {
+        background-image: url('../images/index-page-background.jpg');
+    }
+
+    #menu-body {
+        background: url('../images/index-page-background.jpg');
+    }
+
+    #contact-us-body {
+        background: url('../images/index-page-background.jpg');
+    }
+
+
     /* Header */
 
     .header {
         height: 75px;
+        width: 100%;
     }
 
     #logo {
@@ -422,7 +450,7 @@ input[type=number] {
         margin: 0 25px;
     }
 
-    /* AQbout us, opening times and find us here */
+    /* About us, opening times and find us here */
 
     #about-us p {
         font-size: 20px;
@@ -470,7 +498,7 @@ input[type=number] {
         height: 275px;
         width: 300px;
     }
-    
+
     .gmap_canvas {
         overflow: hidden;
         background: none !important;
@@ -479,9 +507,311 @@ input[type=number] {
         border-radius: 10px;
         margin-left: 35px;
     }
- 
+
     /* menu page */
 
+    #alacarte-menu {
+        text-align: center;
+        margin: 25px;
+    }
 
-}
+    #alacarte-menu h2 {
+        font-size: 25px;
+        width: 75%;
+        height: 40px;
+        text-shadow: none;
+    }
 
+    #alacarte-menu h3 {
+        font-size: 25px;
+        text-shadow: none;
+    }
+
+    #alacarte-menu p {
+        font-size: 15px;
+        text-shadow: none;
+    }
+
+    #starter {
+        text-align: center;
+        width: 80%;
+        height: 300px;
+        float: none;
+        margin: 25px 250px 0 0;
+    }
+
+    #main-course {
+        text-align: center;
+        width: 80%;
+        height: 300px;
+        float: none;
+        margin: 25px 250px 0 0;
+    }
+
+    #dessert {
+        text-align: center;
+        width: 80%;
+        height: 300px;
+        float: none;
+        margin: 25px 250px 100px 0;
+    }
+
+    .menu-image-left {
+        display: none;
+    }
+
+    .menu-image-right {
+        display: none;
+    }
+
+    /* contact us page styling */
+
+    .contact-us {
+        margin: 50px auto;
+        width: 80%;
+    }
+
+    #call-us {
+        display: inline-block;
+        padding: 0;
+        text-align: center;
+        box-shadow: none;
+        height: 150px;
+        width: 100%;
+    }
+
+    #call-us p {
+        font-size: 25px;
+    }
+
+    #booking {
+        font-size: 25px;
+        display: inline-block;
+        padding: 0;
+        text-align: center;
+
+        box-shadow: none;
+        height: 750px;
+        width: 100%;
+    }
+
+    /* Style submit and reset */
+
+
+    #submit {
+        text-align: center;
+        height: 50px;
+        width: 150px;
+        font-size: medium;
+        float: riht;
+    }
+
+    #reset {
+        text-align: center;
+        height: 50px;
+        width: 150px;
+        font-size: medium;
+        float: left;
+    }
+
+    /* footer stlying */
+
+    .footer {
+        width: 100%;
+        ;
+    }
+
+    .social-networks>li {
+        display: inline-block;
+        margin: 25px 20px;
+    }
+
+    .social-networks i {
+        font-size: 150%;
+        margin: 2%;
+        padding: 5%;
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+
+    @media only screen and (min-width: 600px) and (max-width: 750px) {
+
+        .header {
+            margin: 50px;
+            padding-bottom: 150px;
+            display: block;
+        }
+
+
+        #logo {
+            float: none;
+            text-align: right;
+        }
+
+
+
+        /* navigation links */
+
+        #menu {
+            font-size: 50%;
+            color: rgb;
+            float: none;
+            text-align: left;
+        }
+
+
+
+
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+
+    @media only screen and (max: width 850px;) {
+        #starter {
+            float: none;
+            margin: 0 auto;
+        }
+
+        #main-course {
+            float: none;
+            margin: 0 auto;
+        }
+
+        #dessert {
+            float: none;
+            margin: 0 auto;
+        }
+
+        .menu-image-left {
+            display: none;
+        }
+
+        .menu-image-right {
+            display: none;
+        }
+    }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+
+    @media only screen and (min-width: 992px) {
+        #about-us {
+            text-align: center;
+            margin: 0 25px;
+        }
+
+        #opening-times {
+            float: none;
+            margin: 50px auto;
+        }
+
+        #find-us {
+            float: none;
+            margin: 50px auto 150px auto;
+        }
+
+        #alacarte-menu h3 {
+            width: 100%;
+        }
+
+        #starter {
+            background-color: #deac6b;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+            margin: 0;
+            border-radius: 10px;
+            border: 10px double rgb(119, 4, 4);
+            width: 50%;
+            height: 500px;
+            float: left;
+            position: relative;
+        }
+
+
+        #main-course {
+            background-color: #deac6b;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+            margin: 0;
+            border-radius: 10px;
+            border: 10px double rgb(119, 4, 4);
+            width: 50%;
+            height: 500px;
+            float: right;
+            position: relative;
+        }
+
+        #desserts {
+            background-color: #deac6b;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+            margin: 0;
+            border-radius: 10px;
+            border: 10px double rgb(119, 4, 4);
+            width: 50%;
+            height: 500px;
+            float: left;
+            position: relative;
+        }
+
+        .menu-image-left {
+            background-color: #deac6b;
+            padding: 20px;
+            margin: 0;
+            border: 10px double rgb(119, 4, 4);
+            border-radius: 50%;
+            width: 50%;
+            height: 500px;
+            display: flex;
+            float: left;
+            position: relative;
+        }
+
+        .menu-image-right {
+            background-color: #deac6b;
+            padding: 20px;
+            margin: 0;
+            border: 10px double rgb(119, 4, 4);
+            border-radius: 50%;
+            width: 50%;
+            height: 500px;
+            display: flex;
+            float: right;
+            position: relative;
+        }
+    }
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+
+    @media only screen and (min-width: 1200px) {
+
+        #opening-times {
+            margin: 50px 50px 200px 250px;
+        }
+
+        #find-us {
+            margin: 50px 250px 200px 50px;
+        }
+
+        #starter {
+            margin: 50px 50px 150px 250px;
+        }
+
+        #main-course {
+            margin: 50px 250px 150px 50px;
+        }
+
+        #dessert {
+            margin: 50px 50px 150px 250px;
+        }
+
+        .menu-image-left {
+            margin: 50px 50px 150px 250px;
+        }
+
+        .menu-image-right {
+            margin: 50px 250px 150px 50px;
+        }
+    }
