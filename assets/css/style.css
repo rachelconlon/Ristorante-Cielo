@@ -17,11 +17,11 @@ body {
 }
 
 #menu-body {
-    background: url('../images/page-background.jpg');
+    background-image: url('../images/page-background.jpg');
 }
 
 #contact-us-body {
-    background: url('../images/page-background.jpg');
+    background-image: url('../images/page-background.jpg');
 }
 
 /* headings */
@@ -666,7 +666,7 @@ input[type=number] {
 
     /* Medium devices (landscape tablets, 768px and up) */
 
-    @media only screen and (max: width 850px;) {
+    @media only screen and (max: width 850px) {
         #starter {
             float: none;
             margin: 0 auto;
@@ -785,7 +785,7 @@ input[type=number] {
 
     /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-    @media only screen and (min-width: 1200px) {
+    @media only screen and (min-width: 1200px){
 
         #opening-times {
             margin: 50px 50px 200px 250px;
