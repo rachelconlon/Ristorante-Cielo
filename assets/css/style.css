@@ -626,19 +626,19 @@ input[type=number] {
     /* menu page styling */
 
     #starter {
-        margin: 50px 50px 150px 50px;
+        margin: 50px 50px 150px 250px;
         width: 500px;
         height: 500px;
     }
 
     #main-course {
-        margin: 50px 50px 150px 50px;
+        margin: 50px 250px 150px 50px;
         width: 500px;
         height: 500px;
     }
 
     #dessert {
-        margin: 50px 50px 150px 50px;
+        margin: 50px 50px 150px 250px;
         width: 500px;
         height: 500px;
     }
@@ -651,10 +651,12 @@ input[type=number] {
     .menu-image-left {
         width: 500px;
         height: 500px;
+        margin: 50px 50px 150px 250px;
     }
 
     .menu-image-right {
         width: 500px;
         height: 500px;
+        margin: 50px 250px 150px 50px;
     }
 }
