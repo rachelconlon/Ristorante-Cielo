@@ -7,6 +7,8 @@
 }
 
 body {
+    width: 100%;
+    height: 100%;
     font-family: Lora, serif;
     font-weight: 400;
     color: black;
@@ -46,41 +48,47 @@ p {
 /* header styling */
 
 .header {
-    padding-top: 25px;
-    padding-bottom: 75px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-left: 25px;
     background-color: rgb(119, 4, 4);
     width: 100%;
 }
 
 #logo {
     font-family: Italianno, cursive;
-    font-weight: 400;
-    font-size: 500%;
-    margin-left: 25px;
-    float: left;
+    font-weight: 750;
     color: azure;
     text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    line-height: 50px;
+    float: left;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 150%;
+    font-size: 100%;
     text-decoration: none;
     text-shadow: 2px 2px 4px #000000;
-    float: right;
     color: azure;
     list-style: none;
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
 }
 
 #menu,
 #logo {
-    line-height: 75px;
+    line-height: 50px;
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
+    display: inline-block;
+    float: right;
     margin-right: 25px;
 }
 
@@ -99,55 +107,48 @@ p {
 
 /* hero image styling */
 
-#hero-outer {
-    height: 750px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
 #hero-image {
-    height: 750px;
+    background: url('../images/hero-image-mobile.jpeg') no-repeat center / cover;
+    height: 250px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center / cover;
+
 }
 
 #quote {
     text-align: center;
     color: rgb(119, 4, 4);
     font-size: 25px;
-    margin: 50px 0;
+    margin: 50px;
 }
 
 /* about us section styling */
 
 #about-us {
     text-align: center;
-    margin: 0 250px;
+    margin: 0 25px;
 }
 
 /* opening times and find us here styling */
 
 #times-location-section {
     text-align: center;
+    margin-bottom: 150px;
 }
 
 #opening-times {
-    float: left;
-    padding: 25px;
     text-align: center;
     background-color: #deac6b;
     border-radius: 10px;
     border: 10px double rgb(119, 4, 4);
     box-shadow: 5px 5px rgb(119, 4, 4);
     height: 500px;
-    width: 500px;
-    margin: 50px 50px 200px 75px;
+    width: 330px;
+    margin: 25px auto;
 }
 
 .opening-times {
     list-style: none;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 button {
@@ -161,32 +162,32 @@ button {
 }
 
 #find-us {
-    float: right;
-    padding: 25px;
     text-align: center;
     height: 500px;
-    width: 500px;
+    width: 330px;
+    margin: 25px auto;
     background-color: #deac6b;
     border-radius: 10px;
     border: 10px double rgb(119, 4, 4);
     box-shadow: 5px 5px rgb(119, 4, 4);
-    margin: 50px 75px 200px 50px;
+    padding-bottom: 15px;
 }
 
 .mapouter {
     position: relative;
+    text-align: right;
     height: 400px;
-    width: 400px;
+    width: 280px;
+    padding-left: 25px;
 }
 
-.gmap_canvas {
+<a href="https://www.embedgooglemap.net">embed google maps into website</a>.gmap_canvas {
     overflow: hidden;
     background: none !important;
     height: 400px;
-    width: 400px;
-    border-radius: 10px;
-    margin-left: 50px;
+    width: 280px;
 }
+
 
 /* menu page styling */
 
@@ -212,57 +213,44 @@ button {
 
 #starter {
     background-color: #deac6b;
-    padding: 20px;
     font-size: 30px;
     text-align: center;
-    margin: 50px 50px 150px 50px;
     border-radius: 10px;
     border: 10px double rgb(119, 4, 4);
     width: 500px;
     height: 500px;
-    float: left;
     position: relative;
 }
 
-
 #main-course {
     background-color: #deac6b;
-    padding: 20px;
     font-size: 30px;
     text-align: center;
-    margin: 50px 50px 150px 50px;
     border-radius: 10px;
     border: 10px double rgb(119, 4, 4);
     width: 500px;
     height: 500px;
-    float: right;
     position: relative;
 }
 
 #dessert {
     background-color: #deac6b;
-    padding: 20px;
     font-size: 30px;
     text-align: center;
-    margin: 50px 50px 150px 50px;
     border-radius: 10px;
     border: 10px double rgb(119, 4, 4);
     width: 500px;
     height: 500px;
-    float: left;
     position: relative;
 }
 
 .menu-image-left {
     background-color: #deac6b;
-    padding: 20px;
-    margin: 50px 50px 150px 50px;
     border: 10px double rgb(119, 4, 4);
     border-radius: 50%;
     width: 500px;
     height: 500px;
     display: flex;
-    float: left;
     position: relative;
 }
 
@@ -279,7 +267,6 @@ button {
     width: 500px;
     height: 500px;
     display: flex;
-    float: right;
     position: relative;
 }
 
@@ -393,7 +380,7 @@ input[type=number] {
 
 .social-networks>li {
     display: inline-block;
-    margin: 25px 50px;
+    margin: 25px 25px;
 }
 
 .social-networks i {
@@ -406,412 +393,3 @@ input[type=number] {
 .social-networks i:hover {
     font-size: 200%;
 }
-
-/* Media queries */
-
-/* Extra small devices (phones, 600px and down) */
-
-@media only screen and (max-width: 600px) {
-
-    #index-body {
-        background-image: url('../images/index-page-background.jpg');
-    }
-
-    #menu-body {
-        background: url('../images/index-page-background.jpg');
-    }
-
-    #contact-us-body {
-        background: url('../images/index-page-background.jpg');
-    }
-
-
-    /* Header */
-
-    .header {
-        height: 75px;
-        width: 100%;
-    }
-
-    #logo {
-        font-size: 350%;
-    }
-
-    #nav {
-        font-size: 100%;
-    }
-
-    #hero-image {
-        width: 100%;
-        height: 250px;
-    }
-
-    #about-us {
-        margin: 0 25px;
-    }
-
-    /* About us, opening times and find us here */
-
-    #about-us p {
-        font-size: 20px;
-    }
-
-
-    #opening-times {
-        float: none;
-        padding: 0;
-        text-align: center;
-        height: 500px;
-        width: 80%;
-        margin: 10px auto;
-        box-shadow: none;
-    }
-
-    #opening-times h2 {
-        font-size: 25%;
-    }
-
-    .opening-times {
-        list-style: none;
-        font-size: 150%;
-    }
-
-    button {
-        height: 50px;
-        width: 250px;
-        font-size: 20px;
-
-    }
-
-    #find-us {
-        float: none;
-        padding: 0;
-        text-align: center;
-        height: 400px;
-        width: 80%;
-        margin: 0 auto 200px auto;
-        box-shadow: none;
-    }
-
-    .mapouter {
-        position: relative;
-        height: 275px;
-        width: 300px;
-    }
-
-    .gmap_canvas {
-        overflow: hidden;
-        background: none !important;
-        height: 275px;
-        width: 80%;
-        border-radius: 10px;
-        margin-left: 35px;
-    }
-
-    /* menu page */
-
-    #alacarte-menu {
-        text-align: center;
-        margin: 25px;
-    }
-
-    #alacarte-menu h2 {
-        font-size: 25px;
-        width: 75%;
-        height: 40px;
-        text-shadow: none;
-    }
-
-    #alacarte-menu h3 {
-        font-size: 25px;
-        text-shadow: none;
-    }
-
-    #alacarte-menu p {
-        font-size: 15px;
-        text-shadow: none;
-    }
-
-    #starter {
-        text-align: center;
-        width: 80%;
-        height: 300px;
-        float: none;
-        margin: 25px 250px 0 0;
-    }
-
-    #main-course {
-        text-align: center;
-        width: 80%;
-        height: 300px;
-        float: none;
-        margin: 25px 250px 0 0;
-    }
-
-    #dessert {
-        text-align: center;
-        width: 80%;
-        height: 300px;
-        float: none;
-        margin: 25px 250px 100px 0;
-    }
-
-    .menu-image-left {
-        display: none;
-    }
-
-    .menu-image-right {
-        display: none;
-    }
-
-    /* contact us page styling */
-
-    .contact-us {
-        margin: 50px auto;
-        width: 80%;
-    }
-
-    #call-us {
-        display: inline-block;
-        padding: 0;
-        text-align: center;
-        box-shadow: none;
-        height: 150px;
-        width: 100%;
-    }
-
-    #call-us p {
-        font-size: 25px;
-    }
-
-    #booking {
-        font-size: 25px;
-        display: inline-block;
-        padding: 0;
-        text-align: center;
-
-        box-shadow: none;
-        height: 750px;
-        width: 100%;
-    }
-
-    /* Style submit and reset */
-
-
-    #submit {
-        text-align: center;
-        height: 50px;
-        width: 150px;
-        font-size: medium;
-        float: riht;
-    }
-
-    #reset {
-        text-align: center;
-        height: 50px;
-        width: 150px;
-        font-size: medium;
-        float: left;
-    }
-
-    /* footer stlying */
-
-    .footer {
-        width: 100%;
-        ;
-    }
-
-    .social-networks>li {
-        display: inline-block;
-        margin: 25px 20px;
-    }
-
-    .social-networks i {
-        font-size: 150%;
-        margin: 2%;
-        padding: 5%;
-    }
-
-    /* Small devices (portrait tablets and large phones, 600px and up) */
-
-    @media only screen and (min-width: 600px) and (max-width: 750px) {
-
-        .header {
-            margin: 50px;
-            padding-bottom: 150px;
-            display: block;
-        }
-
-
-        #logo {
-            float: none;
-            text-align: right;
-        }
-
-
-
-        /* navigation links */
-
-        #menu {
-            font-size: 50%;
-            color: rgb;
-            float: none;
-            text-align: left;
-        }
-
-
-
-
-    }
-
-    /* Medium devices (landscape tablets, 768px and up) */
-
-    @media only screen and (max: width 850px) {
-        #starter {
-            float: none;
-            margin: 0 auto;
-        }
-
-        #main-course {
-            float: none;
-            margin: 0 auto;
-        }
-
-        #dessert {
-            float: none;
-            margin: 0 auto;
-        }
-
-        .menu-image-left {
-            display: none;
-        }
-
-        .menu-image-right {
-            display: none;
-        }
-    }
-
-    /* Large devices (laptops/desktops, 992px and up) */
-
-    @media only screen and (min-width: 992px) {
-        #about-us {
-            text-align: center;
-            margin: 0 25px;
-        }
-
-        #opening-times {
-            float: none;
-            margin: 50px auto;
-        }
-
-        #find-us {
-            float: none;
-            margin: 50px auto 150px auto;
-        }
-
-        #alacarte-menu h3 {
-            width: 100%;
-        }
-
-        #starter {
-            background-color: #deac6b;
-            padding: 20px;
-            font-size: 30px;
-            text-align: center;
-            margin: 0;
-            border-radius: 10px;
-            border: 10px double rgb(119, 4, 4);
-            width: 50%;
-            height: 500px;
-            float: left;
-            position: relative;
-        }
-
-
-        #main-course {
-            background-color: #deac6b;
-            padding: 20px;
-            font-size: 30px;
-            text-align: center;
-            margin: 0;
-            border-radius: 10px;
-            border: 10px double rgb(119, 4, 4);
-            width: 50%;
-            height: 500px;
-            float: right;
-            position: relative;
-        }
-
-        #desserts {
-            background-color: #deac6b;
-            padding: 20px;
-            font-size: 30px;
-            text-align: center;
-            margin: 0;
-            border-radius: 10px;
-            border: 10px double rgb(119, 4, 4);
-            width: 50%;
-            height: 500px;
-            float: left;
-            position: relative;
-        }
-
-        .menu-image-left {
-            background-color: #deac6b;
-            padding: 20px;
-            margin: 0;
-            border: 10px double rgb(119, 4, 4);
-            border-radius: 50%;
-            width: 50%;
-            height: 500px;
-            display: flex;
-            float: left;
-            position: relative;
-        }
-
-        .menu-image-right {
-            background-color: #deac6b;
-            padding: 20px;
-            margin: 0;
-            border: 10px double rgb(119, 4, 4);
-            border-radius: 50%;
-            width: 50%;
-            height: 500px;
-            display: flex;
-            float: right;
-            position: relative;
-        }
-    }
-
-    /* Extra large devices (large laptops and desktops, 1200px and up) */
-
-    @media only screen and (min-width: 1200px){
-
-        #opening-times {
-            margin: 50px 50px 200px 250px;
-        }
-
-        #find-us {
-            margin: 50px 250px 200px 50px;
-        }
-
-        #starter {
-            margin: 50px 50px 150px 250px;
-        }
-
-        #main-course {
-            margin: 50px 250px 150px 50px;
-        }
-
-        #dessert {
-            margin: 50px 50px 150px 250px;
-        }
-
-        .menu-image-left {
-            margin: 50px 50px 150px 250px;
-        }
-
-        .menu-image-right {
-            margin: 50px 250px 150px 50px;
-        }
-    }
