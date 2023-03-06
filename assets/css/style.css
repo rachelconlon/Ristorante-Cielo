@@ -144,6 +144,7 @@ p {
     height: 500px;
     width: 330px;
     margin: 25px auto;
+    padding-bottom: 15px;
 }
 
 .opening-times {
@@ -400,4 +401,260 @@ input[type=number] {
 
 .social-networks i:hover {
     font-size: 200%;
+}
+
+/* Media Queries */
+
+/* For medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+
+    /* header styling */
+    .header {
+        padding-top: 25px;
+    }
+
+    #logo {
+        font-weight: 400;
+        font-size: 500%;
+        margin-left: 25px;
+    }
+
+    /* navigation links */
+
+    #menu {
+        font-size: 150%;
+        float: right;
+        padding-right: 25px;
+    }
+
+    /* hero image styling */
+
+    #hero-image {
+        height: 750px;
+        background: url('../images/hero-image.jpg') no-repeat center / cover;
+    }
+
+    /* menu page styling */
+
+    #alacarte-menu {
+        text-align: center;
+        width: fit-content;
+        margin: 50px auto 100px auto;
+    }
+
+    #alacarte-menu h2 {
+        font-size: 50px;
+        padding: 20px;
+        width: 500px;
+        height: 75px;
+        margin: 0 auto;
+    }
+
+    #starter {
+        padding: 20px;
+        margin: 50px 50px 50px 50px;
+        width: 500px;
+        height: 550px;
+        position: relative;
+    }
+
+    #main-course {
+        padding: 20px;
+        margin: 50px 50px 50px 50px;
+        width: 500px;
+        height: 550px;
+        position: relative;
+    }
+
+    #dessert {
+        padding: 20px;
+        margin: 50px 50px 150px 50px;
+        width: 500px;
+        height: 550px;
+        position: relative;
+    }
+
+    img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .menu-image-left {
+        padding: 20px;
+        margin: 50px 50px 150px 50px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .menu-image-right {
+        padding: 20px;
+        margin: 50px 50px 150px 50px;
+        width: 500px;
+        height: 500px;
+    }
+
+    /* contact us page styling */
+    
+    #call-us {
+        height: 100px;
+        width: 550px;
+        margin: 0 auto;
+    }
+
+    #booking {
+        height: 750px;
+        width: 550px;
+        margin: 0 auto;
+    }
+
+    /* Style submit and reset */
+
+    #submit {
+        float: right;
+    }
+
+    #reset {
+        float: left;
+    }
+}
+
+/* For large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    #opening-times {
+        float: left;
+        margin-left: 100px;
+        margin-bottom: 150px;
+    }
+
+    #find-us {
+        float: right;
+        margin-right: 100px;
+        margin-bottom: 150px;
+    }
+
+    /* contact us page styling */
+
+
+    #call-us {
+        height: 100px;
+        width: 750px;
+        margin: 0 auto;
+    }
+
+    #booking {
+        height: 750px;
+        width: 750px;
+        margin: 0 auto;
+    }
+
+    /* Style submit and reset */
+
+    #submit {
+        float: right;
+    }
+
+    #reset {
+        float: left;
+    }
+}
+
+/* For XL devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    #opening-times {
+        margin-left: 250px;
+    }
+
+    #find-us {
+        margin-right: 250px;
+    }
+
+    /* menu page styling */
+
+    #starter {
+        margin: 50px 50px 150px 50px;
+        width: 400px;
+        height: 500px;
+        float: left;
+    }
+
+    #main-course {
+        margin: 50px 50px 150px 50px;
+        width: 400px;
+        height: 500px;
+        float: right;
+    }
+
+    #dessert {
+        margin: 50px 50px 150px 50px;
+        width: 400px;
+        height: 500px;
+        float: left;
+    }
+
+    img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .menu-image-left {
+        width: 400px;
+        height: 400px;
+        float: left;
+    }
+
+    .menu-image-right {
+        width: 400px;
+        height: 400px;
+        float: right;
+    }
+}
+
+/* For 2XL devices (large laptops and desktops, 1500px and up) */
+
+@media only screen and (min-width: 1500px) {
+    #opening-times {
+        margin-left: 400px;
+    }
+
+    #find-us {
+        margin-right: 400px;
+    }
+
+    /* menu page styling */
+
+    #starter {
+        margin: 50px 50px 150px 50px;
+        width: 500px;
+        height: 500px;
+    }
+
+    #main-course {
+        margin: 50px 50px 150px 50px;
+        width: 500px;
+        height: 500px;
+    }
+
+    #dessert {
+        margin: 50px 50px 150px 50px;
+        width: 500px;
+        height: 500px;
+    }
+
+    img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .menu-image-left {
+        width: 500px;
+        height: 500px;
+    }
+
+    .menu-image-right {
+        width: 500px;
+        height: 500px;
+    }
 }
