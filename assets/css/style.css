@@ -193,18 +193,19 @@ button {
 
 #alacarte-menu {
     text-align: center;
-    margin: 50px 50px 50px 50px;
+    margin: 25px;
+    position: relative;
 }
 
 #alacarte-menu h2 {
-    font-size: 50px;
+    font-size: 35px;
     background-color: #deac6b;
     border: 10px double rgb(119, 4, 4);
     border-radius: 50%;
-    padding: 20px;
-    width: 500px;
+    padding: 25px;
+    width: 300px;
     height: 75px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 #alacarte-menu h3 {
@@ -213,13 +214,14 @@ button {
 
 #starter {
     background-color: #deac6b;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     border-radius: 10px;
     border: 10px double rgb(119, 4, 4);
-    width: 500px;
-    height: 500px;
+    width: 325px;
+    height: 650px;
     position: relative;
+    margin: 25px;
 }
 
 #main-course {
@@ -228,9 +230,10 @@ button {
     text-align: center;
     border-radius: 10px;
     border: 10px double rgb(119, 4, 4);
-    width: 500px;
-    height: 500px;
+    width: 320px;
+    height: 650px;
     position: relative;
+    margin: 25px;
 }
 
 #dessert {
@@ -239,19 +242,23 @@ button {
     text-align: center;
     border-radius: 10px;
     border: 10px double rgb(119, 4, 4);
-    width: 500px;
-    height: 500px;
+    width: 320px;
+    height: 650px;
     position: relative;
+    margin: 25px;
 }
 
 .menu-image-left {
     background-color: #deac6b;
     border: 10px double rgb(119, 4, 4);
     border-radius: 50%;
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     display: flex;
     position: relative;
+    text-align: center;
+    padding: 20px;
+    margin: 50px 25px;
 }
 
 .menu-image-left img {
@@ -261,13 +268,14 @@ button {
 .menu-image-right {
     background-color: #deac6b;
     padding: 20px;
-    margin: 50px 50px 150px 50px;
     border: 10px double rgb(119, 4, 4);
     border-radius: 50%;
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     display: flex;
     position: relative;
+    text-align: center;
+    margin: 50px 25px;
 }
 
 .menu-image-right img {
