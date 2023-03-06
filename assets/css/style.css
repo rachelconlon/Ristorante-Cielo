@@ -193,8 +193,8 @@ button {
 
 #alacarte-menu {
     text-align: center;
-    margin: 25px;
-    position: relative;
+    width: fit-content;
+    margin: 50px auto 100px auto;
 }
 
 #alacarte-menu h2 {
@@ -203,9 +203,9 @@ button {
     border: 10px double rgb(119, 4, 4);
     border-radius: 50%;
     padding: 25px;
-    width: 300px;
+    width: 250px;
     height: 75px;
-    margin: auto;
+    margin: 25px;
 }
 
 #alacarte-menu h3 {
@@ -219,7 +219,7 @@ button {
     border-radius: 10px;
     border: 10px double rgb(119, 4, 4);
     width: 325px;
-    height: 650px;
+    height: 600px;
     position: relative;
     margin: 25px;
 }
@@ -243,7 +243,7 @@ button {
     border-radius: 10px;
     border: 10px double rgb(119, 4, 4);
     width: 320px;
-    height: 650px;
+    height: 550px;
     position: relative;
     margin: 25px;
 }
@@ -285,7 +285,9 @@ button {
 /* contact us page styling */
 
 .contact-us {
-    margin: 50px 200px;
+    text-align: center;
+    width: fit-content;
+    margin: 50px auto 100px auto;
 }
 
 #call-us {
@@ -297,8 +299,8 @@ button {
     border: 10px double rgb(119, 4, 4);
     box-shadow: 5px 5px rgb(119, 4, 4);
     height: 100px;
-    width: 750px;
-    margin: 0 auto;
+    width: 300px;
+    margin: auto;
 }
 
 #call-us p {
@@ -314,9 +316,9 @@ button {
     border-radius: 10px;
     border: 10px double rgb(119, 4, 4);
     box-shadow: 5px 5px rgb(119, 4, 4);
-    height: 750px;
-    width: 750px;
-    margin: 0 auto;
+    height: 900px;
+    width: 300px;
+    margin: auto;
 }
 
 /* Style inputs, submit and reset */
@@ -340,7 +342,6 @@ input {
     width: 200px;
     font-size: larger;
     border-radius: 10px;
-    float: right;
     cursor: pointer;
 }
 
@@ -352,7 +353,6 @@ input {
     font-size: larger;
     border-radius: 10px;
     border-color: rgb(119, 4, 4);
-    float: left;
     cursor: pointer;
 }
 
