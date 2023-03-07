@@ -23,32 +23,62 @@ The website allows the user to view the menu options in advance and also make a 
 
 ![This is an image of the about us section](assets/images/about-us-image.png)
 
-* ### Opening Hours
+* ### Opening Hours and Find Us Here
+    * This section provides more information for the user, regarding hours of operation and where the restaurant can be found.
+    * The Opening Hours section provides both the opening and a 'Make a Reservation' link. This link brings the customer to the Contact Us page, where they find the contact number or the form to make a reservation.
+    * The 'Find Us Here' section provides a Google Maps pin drop of the restaurants location.
 
-* ### Find Us Here
+![Image showing opening times and how the customer can find the restaurant](assets/images/opening-times-findushere-image.png)
 
 * ### The Menu Page
+    * This page allows the user to view the menu in advance.
+
+![A la CARTE Menu image](assets/images/menu-page.png)
 
 * ### The Contact Us page
+    * The 'Contact Us' page provide the user with two options.
+    * The 'Call Us' section provides the contact number for the restaurant
+
+    ![Call us image](assets/images/call-us.png)
+
+    * The 'Make a Reservation' section give the user the option to complete a form to book a table.
+
+    ![Image showing the make a reservation form](assets/images/make-a-reservation.png)
 
 * ### The Footer
+    * The footer is simplistic and provides links to the social accounts for the restaurant.
+    * Each link will open the social account in a new page.
+
+    ![This is an image of the social links available in the footer](assets/images/social-links-footer.png)
+
+
 
 ## Testing
 -----
 ### Manual Testing
-* Tested browsers
-* Confirm responsiveness
-* Confirm navigation options all work
-* Confirm the 'Make a Reservation' buttom under 'Opening Hours' brings the visitor to the Home page
-* Confirm that the Form work and the inout rules are all working
+
+* I tested to ensure this website worked in different browsers: Safari, Google Chrome and Mozilla Firefox
+* I have confirmed that this site responsive and looks good on different browsers and devices.
+* I have tested that all navigation options work and bring the user to the expected location.
+* I have confirm the 'Make a Reservation' buttom under 'Opening Hours' brings the visitor to the 'Contact Us' page
+* I have tested the form and confirmed that it works and the input rules are also working as specified.
+
 ### Bugs
-* #### Solved bugs
-* #### Unfixed bugs
+    * No bugs were found
 
 ### Validator Testing
 * #### HTML
+    * The only errors found when passing through the official W3C validator were linked to the iframe for Google Maps in the 'Find Us Here' section.
+
 * #### CSS
+    * 1 parse error found when passing through the official (Jigsaw) validator. This was also link to Google Maps, as mentioned previously.
+
 * #### Accessibility
+    * I ran the site through Lighthouse in Chrome DevToolsand I can confirm that the colours and fonts used are easy to read and accessible by getting a score of 100.
+
+![Image illustrating accessibility score from Lighthouse](assets/images/lighthouse-validation-testing.png)
+
+* I need to continue working on the performance of the page.
 
 ## Deployment
 -----
