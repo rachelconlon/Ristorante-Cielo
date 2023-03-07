@@ -1,27 +1,27 @@
 # Ristorante Cielo
 
-## About
+This is a website for and Italian restaurant called, [Ristorante Cielo](https://rachelconlon.github.io/Ristorante-Cielo/index.html). Users of this website will be able to find relavent information about the restaurant, along with contact details. 
 
-This is a website for [Ristorante Cielo](https://rachelconlon.github.io/Ristorante-Cielo/index.html), an Italian restaurant... Brief introduction that outlines the site purpose and who it is for
+The website allows the user to view the menu options in advance and also make a reservation directly from the website. This site is targeted towards potential customers of the restaurant.
 
-## Am I responsive?
-
-Screenshot using website that shows hoe the site will look on differernt devices types and sizes.
-
-![This image shows responsiveness on different device types](assets/images/1-am-i-responsive.png)
-
-![This is another image to show responsiveness on different device types](assets/images/2-am-i-responsive.png)
+![This image shows responsiveness on different device types](assets/images/responsiveness-image.png)
 
 ## Features 
 -----
 
-Include description and screenshots of each
+* ### Navigation and Header
+    * This is located in the header at the top of each page of the website. On the left side of the navigation bar the logo, which is the restaurant name, is shown. By clicking this the user will always be brought to the 'Home' page.
+    * Other navigation options are found on the right side of the bar. These links allow the user to navigate to the Menu page, the Contact options or back to the Home page once again.
+    * The navigation clearly tells the user the name of the restaurant and the different sections of the site that are available so they can efficiaently find the information they require.
+    * The navigation bar colour contrast effectively with the hero image directly below, which illustrates the inside of the restaurant.
 
-* ### Navigation
-    * 
-* ### The Header
+![This image shows the navigation bar with the available options.](assets/images/header-with-hero-image.png)
 
 * ### The About Us Section
+    * The About Us section provides details about the restaurant and staff to the user.
+    * From this section the user will also get a feel for the traditional cuisine available.
+
+![This is an image of the about us section](assets/images/about-us-image.png)
 
 * ### Opening Hours
 
