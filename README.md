@@ -8,7 +8,9 @@ This is a website for [Ristorante Cielo](https://rachelconlon.github.io/Ristoran
 
 Screenshot using website that shows hoe the site will look on differernt devices types and sizes.
 
-![This image shows responsiveness on different device types](/workspace/Ristorante-Cielo/assets/images/1-Am I Responsive?.png)
+![This image shows responsiveness on different device types](assets/images/1-am-i-responsive.png)
+
+![This is another image to show responsiveness on different device types](assets/images/2-am-i-responsive.png)
 
 ## Features 
 -----
