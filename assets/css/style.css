@@ -574,21 +574,21 @@ input[type=number] {
     /* menu page styling */
 
     #starter {
-        margin: 50px 50px 150px 50px;
+        margin: 50px 50px 150px 90px;
         width: 400px;
         height: 500px;
         float: left;
     }
 
     #main-course {
-        margin: 50px 50px 150px 50px;
+        margin: 50px 90px 150px 50px;
         width: 400px;
         height: 500px;
         float: right;
     }
 
     #dessert {
-        margin: 50px 50px 150px 50px;
+        margin: 50px 50px 150px 90px;
         width: 400px;
         height: 500px;
         float: left;
@@ -603,12 +603,14 @@ input[type=number] {
         width: 400px;
         height: 400px;
         float: left;
+        margin: 50px 50px 150px 90px;
     }
 
     .menu-image-right {
         width: 400px;
         height: 400px;
         float: right;
+        margin: 50px 90px 150px 50px;
     }
 }
 
@@ -626,37 +628,37 @@ input[type=number] {
     /* menu page styling */
 
     #starter {
-        margin: 50px 50px 150px 250px;
-        width: 500px;
+        margin: 50px 50px 150px 200px;
+        width: 400px;
         height: 500px;
     }
 
     #main-course {
-        margin: 50px 250px 150px 50px;
-        width: 500px;
+        margin: 50px 200px 150px 50px;
+        width: 400px;
         height: 500px;
     }
 
     #dessert {
-        margin: 50px 50px 150px 250px;
-        width: 500px;
+        margin: 50px 50px 150px 200px;
+        width: 400px;
         height: 500px;
     }
 
     img {
-        width: 500px;
+        width: 475px;
         height: 500px;
     }
 
     .menu-image-left {
-        width: 500px;
+        width: 475px;
         height: 500px;
-        margin: 50px 50px 150px 250px;
+        margin: 50px 50px 150px 200px;
     }
 
     .menu-image-right {
-        width: 500px;
+        width: 475px;
         height: 500px;
-        margin: 50px 250px 150px 50px;
+        margin: 50px 200px 150px 50px;
     }
 }
